@@ -41,6 +41,7 @@ To align temporal coverage, although both mobility and NO2 data were available d
 Min-max Scaling | Smoothing | MAQI Index
 --- | --- | ---
 To make the data comparable, we implemented Min-Max scaling for both the mobility and NO2 indicators. | We then created indices by smoothing both indicators using a 10-period moving average to remove the random fluctuations and see a more consistent trend. | We divide the mobility index by the NO2 index to create our MAQI value.
+![Formula Min-max Scalar](https://github.com/docligot/maqi/blob/main/images/formula_scaling.PNG) | ![Formula Smoothing](https://github.com/docligot/maqi/blob/main/images/formula_moving_average.PNG) | ![Formula MAQI Index](https://github.com/docligot/maqi/blob/main/images/formula_maqi.PNG)
 ![Min-max Scalar](https://github.com/docligot/maqi/blob/main/images/mix_max_scalar.PNG) | ![Smoothing Index](https://github.com/docligot/maqi/blob/main/images/smoothing_index.PNG) | ![MAQI Index](https://github.com/docligot/maqi/blob/main/images/maqi_index.PNG)
 
 ## Impact and Usage
