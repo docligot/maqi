@@ -1,10 +1,9 @@
-<img src="https://github.com/docligot/maqi/blob/main/images/maqi_logo.png" align="left" height="60" width="60" > # Mobility over Air Quality Index (MAQI)
+<img src="https://github.com/docligot/maqi/blob/main/images/maqi_logo.png" align="left" height="60" width="60" >
+# Mobility over Air Quality Index (MAQI)
 
 ## Welcome to MAQI
 
 This repository contains the worksheets, code, and materials used for MAQI developed for the [EO Dashboard Hackathon](https://www.eodashboardhackathon.org/). 
-
-
 
 ## Challenge: Multi-mission Earth Observation Data Visualization
 
