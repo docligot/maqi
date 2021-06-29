@@ -8,7 +8,7 @@ This repository contains the worksheets, code, and materials used for MAQI devel
 
 ## Challenge: Multi-mission Earth Observation Data Visualization
 
-MAQI is an answer to the Multi-mission Earth Observation Data Visualization challenge under the EO Dashboard hackathon. We’ve chosen to focus on Air Quality (NO2) and Google Mobility data. Logically movement and transportation could impact air pollution levels. During the COVID-19 lockdowns, communities all over the world experienced dramatic drops in mobility and improved air quality. Now that countries are recovering from the pandemic lockdowns, mobility is coming back and air quality is deteriorating again. 
+MAQI is our answer to the [Multi-mission Earth Observation Data Visualization challenge](https://www.eodashboardhackathon.org/challenges/interactive-data-exploration/multi-mission-earth-observation-data-visualization/details) under the EO Dashboard hackathon. We’ve chosen to focus on Air Quality (NO2) and Google Mobility data. Logically movement and transportation could impact air pollution levels. During the COVID-19 lockdowns, communities all over the world experienced dramatic drops in mobility and improved air quality. Now that countries are recovering from the pandemic lockdowns, mobility is coming back and air quality is deteriorating again. 
 
 NO2 Dashboard | Mobility Dashboard
 --- | --- 
@@ -32,7 +32,7 @@ We downloaded Google Mobility Data for a 1-year period from Google. We decided t
 
 To align the spatial coverage, we defined polygons on the Sentinel EO Playground API and FIS API to extract NO2 time-series from Sentinel 5P mission for those polygons. 
 
-To align temporal coverage, although both mobility and NO2 data was available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
+To align temporal coverage, although both mobility and NO2 data were available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
 
 ![Missing Values](https://github.com/docligot/maqi/blob/main/images/missing_values.PNG)
 
@@ -41,15 +41,22 @@ To align temporal coverage, although both mobility and NO2 data was available da
 Min-max Scaling | Smoothing | MAQI Index
 --- | --- | ---
 To make the data comparable, we implemented Min-Max scaling for both the mobility and NO2 indicators. | We then created indices by smoothing both indicators using a 10-period moving average to remove the random fluctuations and see a more consistent trend. | We divide the mobility index by the NO2 index to create our MAQI value.
+![Formula Min-max Scalar](https://github.com/docligot/maqi/blob/main/images/formula_scaling.PNG) | ![Formula Smoothing](https://github.com/docligot/maqi/blob/main/images/formula_moving_average.PNG) | ![Formula MAQI Index](https://github.com/docligot/maqi/blob/main/images/formula_maqi.PNG)
 ![Min-max Scalar](https://github.com/docligot/maqi/blob/main/images/mix_max_scalar.PNG) | ![Smoothing Index](https://github.com/docligot/maqi/blob/main/images/smoothing_index.PNG) | ![MAQI Index](https://github.com/docligot/maqi/blob/main/images/maqi_index.PNG)
 
 ## Impact and Usage
 
-MAQI brings a better understanding of the air quality trends. When MAQI is high, it means societies are generating more movement compared to pollution. When MAQI is low, it means pollution is getting ahead of mobility. We are looking to visualize the regional disaggregated data of MAQI on the EO Dashboard, to make it possible to benchmark the MAQI performance within countries, and show which areas are recovering post-pandemic but keeping pollution in check. Since disaggregated mobility and NO2 data are available for all countries, MAQI can easily be adapted for use for any country or location. 
+MAQI brings a better understanding of the air quality trends. When MAQI is high, it means societies are generating more movement compared to pollution. When MAQI is low, it means pollution is getting ahead of mobility. We are looking to visualize the regional disaggregated data of MAQI on the EO Dashboard, to make it possible to benchmark the MAQI performance within countries, and show which areas are recovering post-pandemic but keeping pollution in check. Since disaggregated mobility and NO2 data are available for all countries, MAQI can easily be adapted for use for any country or location. These can easily be integrated onto EO Dashboard with aligned spatial resolution (daily) and aggregation (region or state level) for better insight.
 
 High-Low Trend | Chloropleth Visualization | Chloropleth Animation
 --- | --- | ---
 ![High-Low Trend](https://github.com/docligot/maqi/blob/main/images/maqi_hi_low.PNG) | ![Chloropleth](https://github.com/docligot/maqi/blob/main/images/chloropleth_maqi.PNG) | ![Chloropleth Animation](https://github.com/docligot/maqi/blob/main/images/maqi.gif)
+
+## Further Study
+
+We studied each mobility metric and they have distinct effects and relationships with NO2. This can provide the foundation of doing more detailed multi-variate models of NO2 driven by mobility. 
+
+![Scatterplot](https://github.com/docligot/maqi/blob/main/images/mobility_scatter_plots.PNG)
 
 ## Resources
 
