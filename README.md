@@ -43,12 +43,11 @@ Since disaggregated mobility and NO2 data are available for all countries, MAQI 
 ## Resources
 
 We used the following to create MAQI: 
-* TROPOMI
-* Google Mobility
-* Sentinel Playground
-* Sentinel FIS
-* EO Dashboard
-
+* [TROPOMI](http://www.tropomi.eu/)
+* [Google Mobility](https://www.google.com/covid19/mobility/)
+* [Sentinel Playground](https://www.sentinel-hub.com/explore/sentinelplayground/)
+* [Sentinel FIS](https://www.sentinel-hub.com/develop/api/ogc/fis-request/)
+* [EO Dashboard](https://eodashboard.org/)
 
 ## Authors
 
