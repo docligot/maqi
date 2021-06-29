@@ -1,4 +1,5 @@
 <img src="https://github.com/docligot/maqi/blob/main/images/maqi_logo.png" align="left" height="60" width="60" >
+
 # Mobility over Air Quality Index (MAQI)
 
 ## Welcome to MAQI
