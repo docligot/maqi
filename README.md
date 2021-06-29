@@ -22,6 +22,12 @@ Our challenge is to devise a way to fuse information from mobility and air quali
 
 MAQI combines various mobility indicators from Google with Tropospheric NO2 to generate an index of mobility against air quality. By combining these indicators, we can get a gauge not just of how mobility is recovering post-pandemic, but also whether an area is generating more or less NO2 relative to the mobility being measured. 
 
+Google Mobility Indices | Mobility vs. NO2 | MAQI
+--- | --- | ---
+![Google Mobility Indices](https://github.com/docligot/maqi/blob/main/images/google_mobility_data.PNG) | ![Mobility vs. NO2](https://github.com/docligot/maqi/blob/main/images/Residential_NO2_Index.PNG) | ![Residential MAQI Index](https://github.com/docligot/maqi/blob/main/images/Residential_MAQI.PNG)
+
+
+
 ## Data preparation
 
 We downloaded Google Mobility Data for a 1-year period from Google. We decided to go for regional disaggregation since only country level is available on EO Dashboard. 
