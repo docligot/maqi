@@ -8,7 +8,7 @@ This repository contains the worksheets, code, and materials used for MAQI devel
 
 ## Challenge: Multi-mission Earth Observation Data Visualization
 
-MAQI is an answer to the Multi-mission Earth Observation Data Visualization challenge under the EO Dashboard hackathon. We’ve chosen to focus on Air Quality (NO2) and Google Mobility data. Logically movement and transportation could impact air pollution levels. During the COVID-19 lockdowns, communities all over the world experienced dramatic drops in mobility and improved air quality. Now that countries are recovering from the pandemic lockdowns, mobility is coming back and air quality is deteriorating again. 
+MAQI is our answer to the [Multi-mission Earth Observation Data Visualization challenge](https://www.eodashboardhackathon.org/challenges/interactive-data-exploration/multi-mission-earth-observation-data-visualization/details) under the EO Dashboard hackathon. We’ve chosen to focus on Air Quality (NO2) and Google Mobility data. Logically movement and transportation could impact air pollution levels. During the COVID-19 lockdowns, communities all over the world experienced dramatic drops in mobility and improved air quality. Now that countries are recovering from the pandemic lockdowns, mobility is coming back and air quality is deteriorating again. 
 
 NO2 Dashboard | Mobility Dashboard
 --- | --- 
