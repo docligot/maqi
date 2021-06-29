@@ -52,6 +52,12 @@ High-Low Trend | Chloropleth Visualization | Chloropleth Animation
 --- | --- | ---
 ![High-Low Trend](https://github.com/docligot/maqi/blob/main/images/maqi_hi_low.PNG) | ![Chloropleth](https://github.com/docligot/maqi/blob/main/images/chloropleth_maqi.PNG) | ![Chloropleth Animation](https://github.com/docligot/maqi/blob/main/images/maqi.gif)
 
+## Further Study
+
+We studied each mobility metric and they have distinct effects and relationships with NO2. This can provide the foundation of doing more detailed multi-variate models of NO2 driven by mobility. 
+
+![Scatterplot](https://github.com/docligot/maqi/blob/main/images/mobility_scatter_plots.PNG)
+
 ## Resources
 
 We used the following to create MAQI: 
