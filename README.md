@@ -32,7 +32,7 @@ We downloaded Google Mobility Data for a 1-year period from Google. We decided t
 
 To align the spatial coverage, we defined polygons on the Sentinel EO Playground API and FIS API to extract NO2 time-series from Sentinel 5P mission for those polygons. 
 
-To align temporal coverage, although both mobility and NO2 data was available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
+To align temporal coverage, although both mobility and NO2 data were available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
 
 ![Missing Values](https://github.com/docligot/maqi/blob/main/images/missing_values.PNG)
 
