@@ -3,7 +3,8 @@
 ## Welcome to MAQI
 
 This repository contains the worksheets, code, and materials used for MAQI developed for the [EO Dashboard Hackathon](https://www.eodashboardhackathon.org/). 
-![maqi logo](https://github.com/docligot/maqi/blob/main/images/maqi_logo.png)
+
+<img src="https://github.com/docligot/maqi/blob/main/images/maqi_logo.png" align="left" height="48" width="48" >
 
 ## Challenge: Multi-mission Earth Observation Data Visualization
 
