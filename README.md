@@ -26,8 +26,6 @@ Google Mobility Indices | Mobility vs. NO2 | MAQI
 --- | --- | ---
 ![Google Mobility Indices](https://github.com/docligot/maqi/blob/main/images/google_mobility_data.PNG) | ![Mobility vs. NO2](https://github.com/docligot/maqi/blob/main/images/Residential_NO2_Index.PNG) | ![Residential MAQI Index](https://github.com/docligot/maqi/blob/main/images/Residential_MAQI.PNG)
 
-
-
 ## Data preparation
 
 We downloaded Google Mobility Data for a 1-year period from Google. We decided to go for regional disaggregation since only country level is available on EO Dashboard. 
@@ -35,6 +33,8 @@ We downloaded Google Mobility Data for a 1-year period from Google. We decided t
 To align the spatial coverage, we defined polygons on the Sentinel EO Playground API and FIS API to extract NO2 time-series from Sentinel 5P mission for those polygons. 
 
 To align temporal coverage, although both mobility and NO2 data was available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
+
+![Missing Values](https://github.com/docligot/maqi/blob/main/images/Residential_MAQI.PNG)
 
 ## Calculating MAQI
 
