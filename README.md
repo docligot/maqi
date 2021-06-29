@@ -34,15 +34,14 @@ To align the spatial coverage, we defined polygons on the Sentinel EO Playground
 
 To align temporal coverage, although both mobility and NO2 data was available daily, there were some days when NO2 had missing values. For these cases, we substituted the most recent value for NO2 to complete the dataset. 
 
-![Missing Values](https://github.com/docligot/maqi/blob/main/images/Residential_MAQI.PNG)
+![Missing Values](https://github.com/docligot/maqi/blob/main/images/missing_values.PNG)
 
 ## Calculating MAQI
 
-To make the data comparable, we implemented Min-Max scaling for both the mobility and NO2 indicators. 
-
-We then created indices by smoothing both indicators using a 10-period moving average to remove the random fluctuations and see a more consistent trend. 
-
-We divide the mobility index by the NO2 index to create our MAQI value.
+Min-max Scaling | Smoothing | MAQI Index
+--- | --- | ---
+To make the data comparable, we implemented Min-Max scaling for both the mobility and NO2 indicators. | We then created indices by smoothing both indicators using a 10-period moving average to remove the random fluctuations and see a more consistent trend. | We divide the mobility index by the NO2 index to create our MAQI value.
+![Min-max Scalar](https://github.com/docligot/maqi/blob/main/images/mix_max_scalar.PNG) | ![Smoothing Index](https://github.com/docligot/maqi/blob/main/images/smoothing_index.PNG) | ![MAQI Index](https://github.com/docligot/maqi/blob/main/images/maqi_index.PNG)
 
 ## Impact and Usage
 
