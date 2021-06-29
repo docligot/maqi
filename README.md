@@ -45,11 +45,11 @@ To make the data comparable, we implemented Min-Max scaling for both the mobilit
 
 ## Impact and Usage
 
-MAQI brings a better understanding of the air quality trends. When MAQI is high, it means societies are generating more movement compared to pollution. When MAQI is low, it means pollution is getting ahead of mobility. 
+MAQI brings a better understanding of the air quality trends. When MAQI is high, it means societies are generating more movement compared to pollution. When MAQI is low, it means pollution is getting ahead of mobility. We are looking to visualize the regional disaggregated data of MAQI on the EO Dashboard, to make it possible to benchmark the MAQI performance within countries, and show which areas are recovering post-pandemic but keeping pollution in check. Since disaggregated mobility and NO2 data are available for all countries, MAQI can easily be adapted for use for any country or location. 
 
-We are looking to visualize the regional disaggregated data of MAQI on the EO Dashboard, to make it possible to benchmark the MAQI performance within countries, and show which areas are recovering post-pandemic but keeping pollution in check. 
-
-Since disaggregated mobility and NO2 data are available for all countries, MAQI can easily be adapted for use for any country or location. 
+High-Low Trend | Chloropleth Visualization | Chloropleth Animation
+--- | --- | ---
+![High-Low Trend](https://github.com/docligot/maqi/blob/main/images/maqi_hi_low.PNG) | ![Chloropleth](https://github.com/docligot/maqi/blob/main/images/chloropleth_maqi.PNG) | ![Chloropleth Animation](https://github.com/docligot/maqi/blob/main/images/maqi.gif)
 
 ## Resources
 
