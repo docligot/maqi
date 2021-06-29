@@ -9,11 +9,9 @@ This repository contains the worksheets, code, and materials used for MAQI devel
 
 MAQI is an answer to the Multi-mission Earth Observation Data Visualization challenge under the EO Dashboard hackathon. We’ve chosen to focus on Air Quality (NO2) and Google Mobility data. Logically movement and transportation could impact air pollution levels. During the COVID-19 lockdowns, communities all over the world experienced dramatic drops in mobility and improved air quality. Now that countries are recovering from the pandemic lockdowns, mobility is coming back and air quality is deteriorating again. 
 
-![NO2 Dashboard on ](https://github.com/docligot/maqi/blob/main/images/maqi_logo.png)
-
 NO2 Dashboard | Mobility Dashboard
 --- | --- 
-![NO2 Dashboard](https://github.com/docligot/maqi/blob/main/images/maqi_logo.png) | ![Mobility dashboard](https://github.com/docligot/maqi/blob/main/images/mobility_scatter_plots.PNG)
+![NO2 Dashboard](https://github.com/docligot/maqi/blob/main/images/no2_eo_dashboard.PNG) | ![Mobility dashboard](https://github.com/docligot/maqi/blob/main/images/mobility_eo_dashboard.PNG)
 
 Although mobility and air quality data are viewable separately on the EO Dashboard, it is not easy to relate these trends against each other. 
 
