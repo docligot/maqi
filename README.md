@@ -71,10 +71,10 @@ We used the following to create MAQI:
 
 MAQI was developed by: 
 
-* [Michael Lance Domagas](https://www.linkedin.com/in/catch2t8/)
-* [Arturo Caronongan III](https://www.linkedin.com/in/arturo-caronongan-130970a6/)
-* [Mark Neil Pascual](https://www.linkedin.com/in/markpascual1986/)
-* [Dominic Vincent Ligot](https://www.linkedin.com/in/docligot/)
+* [Michael Lance Domagas](https://www.linkedin.com/in/catch2t8/) - Team Lead, Space Researcher
+* [Arturo Caronongan III](https://www.linkedin.com/in/arturo-caronongan-130970a6/) - Data Researcher
+* [Mark Neil Pascual](https://www.linkedin.com/in/markpascual1986/) - Data Engineer
+* [Dominic Vincent Ligot](https://www.linkedin.com/in/docligot/) - Data Analyst
 
 ## License
 
